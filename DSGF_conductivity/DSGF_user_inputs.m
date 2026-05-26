@@ -80,8 +80,8 @@ elseif strcmp('user_defined',spatial_discretization_type)
     % according to the name of the file with the desired user-defined discretization. 
     % These files are generated using matlab scripts.
         
-    discretization = "nanowire_v1_200nm_N_1352_discretization"; % "nanowire_v1_200nm_N_4032_discretization"; % "nanowire_v1_200nm_N_32184_discretization"; %  "nanowire_v1_200nm_N_21280_discretization"; %    "nanowire_Lchar_3.3e-08_Length_9.9621e-07_N_708_discretization"; %"cylinder_N_5532_discretization";% %"2_cubes_Lx500nm_Ly500nm_Lz500nm_d500nm_N576_discretization"; %
-    delta_V = "nanowire_v1_200nm_N_1352_delta_V_vector"; % "nanowire_v1_200nm_N_4032_delta_V_vector";% "nanowire_v1_200nm_N_32184_delta_V_vector";% "nanowire_v1_200nm_N_21280_delta_V_vector"; %      "cylinder_N_5532_delta_V_vector";% %"2_cubes_Lx500nm_Ly500nm_Lz500nm_d500nm_N576_delta_V_vector"; %
+    discretization = "nanowire_v1_200nm_N_1352_discretization"; % 
+    delta_V = "nanowire_v1_200nm_N_1352_delta_V_vector"; % 
     N_cross_section = 52; %532 447
 end
 
