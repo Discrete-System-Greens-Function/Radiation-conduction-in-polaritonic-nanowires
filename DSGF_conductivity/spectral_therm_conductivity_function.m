@@ -46,7 +46,7 @@ A_z = N_x*N_y*(d^2);
 % A_z = A_x;
 
 % % Cross sectional area 
- A_x = 12*(Lsub)^2;
+A_x = 12*(Lsub)^2; % 12 refers to the number of subvolumes in the cross-section area. In this version, this number wwould need to be updated for different simulations. It is recommended to use function spectral_therm_conductivity_function_coating.m instead. 
 % A_y = A_x;
 % A_z = A_x;
 
